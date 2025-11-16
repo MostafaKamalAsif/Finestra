@@ -6,7 +6,9 @@ import { FaUser } from "react-icons/fa";
 import { RiChat3Line } from "react-icons/ri";
 import { MdOutlineMedicalServices } from "react-icons/md";
 import { FaNewspaper } from "react-icons/fa"; 
-import { IoIosSunny } from "react-icons/io";
+import Mode from '../Mode';
+import Flex from '../Flex';
+
 const Header = () => {
   const [active, setActive] = useState('Home');
 
@@ -20,7 +22,7 @@ const Header = () => {
 
           <div className='flex items-center justify-between'>
             {/* Menu  */}
-            <ul className='flex w-[468px] p-1 bg-[#0B0B0B] rounded-full'>
+            <ul className='flex w-[468px] p-1 bg-[#0B0B0B] justify-center rounded-full'>
               <li 
                 onClick={() => setActive('Home')}
                 className={`flex gap-x-2 items-center text-[16px] duration-300 cursor-pointer  py-2.5 px-3 justify-center
@@ -62,17 +64,26 @@ const Header = () => {
               </li>
             </ul>
 
-            <div className="">
+
+            <div className=" flex items-center gap-x-6 pl-32 py-1">
                 {/* Light mode and Drack Mode  */}
-   <div className="flex items-center gap-2">
-
-  <label className="relative inline-flex items-center cursor-pointer">
-    <input type="checkbox" className="sr-only peer" />
-    <div className="w-12 h-6 bg-gray-300 dark:bg-gray-600 peer-focus:outline-none rounded-full peer peer-checked:bg-[#FF5F5F] transition-colors"> </div>
-    <div className="absolute left-1 top-1 w-4 h-4 bg-white rounded-full shadow-md peer-checked:translate-x-6 transition-transform"></div>
-  </label>
-
+   <div className="flex items-center gap-2  ">
+<Mode/>
 </div>
+
+  <Flex className={`gap-x-2.5 `}>
+<div className="w-10 h-10 bg-[#B1E5FC] rounded-full"></div>
+<Flex className={`gap-x-[7px]`}>
+  <span className='text-TextColor text-[16px]'>+pro </span> 
+  <span className='w-6 h-6 text-[16px] rounded-full border-2 border-black font-bold text-center'>$</span>
+</Flex>
+  </Flex>
+
+<button className='px-7.5 py-[11px] rounded-[52px] border-2 border-[#D1D5DB] text-TextColor'>
+Sign In
+</button>
+
+
 
 
             </div>
