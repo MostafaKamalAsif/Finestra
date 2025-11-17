@@ -41,7 +41,7 @@ const Review = () => {
             />
 
             <ReviewCard
-              className={"bg-[#000000]/20"}
+              className={"bg-[#000000]/20 "} 
               UserName={"Jerry Tang"}
               Qualification={"Recent graduate, Marketing at Sweatpals"}
               Comments={
@@ -51,7 +51,7 @@ const Review = () => {
             />
 
             <ReviewCard
-              className={"bg-[#000000]/20"}
+              className={"bg-[#000000]/20"} leftClassName={'bg-[#F2F2F4] w-full h-1.5 rounded-tl-full'} rightClassName={''}
               UserName={"Jerry Tang"}
               Qualification={"Recent graduate, Marketing at Sweatpals"}
               Comments={
@@ -72,7 +72,7 @@ const Review = () => {
               />
             </div>
             <ReviewCard
-              className={"bg-[#000000]/20"}
+              className={"bg-[#000000]/20"} leftClassName={'bg-[#F2F2F4] w-1.5 h-full '} rightClassName={'bg-[#F2F2F4] w-1 h-full '}
               UserName={"Megan"}
               Qualification={"Student at New York University"}
               Comments={

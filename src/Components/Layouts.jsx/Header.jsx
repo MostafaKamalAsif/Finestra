@@ -72,7 +72,12 @@ const Header = () => {
 </div>
 
   <Flex className={`gap-x-2.5 `}>
-<div className="w-10 h-10 bg-[#B1E5FC] rounded-full"></div>
+<div className="w-10 h-10 rounded-full bg-[#000000]/20 overflow-hidden relative">
+  {/* Left curved highlight */}
+  <div className="absolute left-0 top-0 w-[4px] h-full bg-[#F2F2F4]"></div>
+</div>
+
+
 <Flex className={`gap-x-[7px]`}>
   <span className='text-TextColor text-[16px]'>+pro </span> 
   <span className='w-6 h-6 text-[16px] rounded-full border-2 border-black font-bold text-center'>$</span>

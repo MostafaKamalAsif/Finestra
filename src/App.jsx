@@ -8,6 +8,7 @@ import Users from './Components/Layouts.jsx/Users'
 import MangeMoney from './Components/Layouts.jsx/MangeMoney'
 import Footer from './Components/Layouts.jsx/Footer'
 import Review from './Components/Layouts.jsx/Review'
+import AccountTransfer from './Components/Layouts.jsx/AccountTransfer'
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
 <Banner/>
 <Users/>
 <MangeMoney/>
+<AccountTransfer/>
 <Review/>
 <Footer/>
 </>
