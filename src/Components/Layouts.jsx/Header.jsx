@@ -22,7 +22,7 @@ const Header = () => {
 
           <div className='flex items-center justify-between'>
             {/* Menu  */}
-            <ul className='flex w-[468px] p-1 bg-[#0B0B0B] justify-center rounded-full'>
+            <ul className='flex w-[440px] p-1 bg-[#0B0B0B] justify-center rounded-full'>
               <li 
                 onClick={() => setActive('Home')}
                 className={`flex gap-x-2 items-center text-[16px] duration-300 cursor-pointer  py-2.5 px-3 justify-center

@@ -1,10 +1,62 @@
 import React from 'react'
-
+import Flex from '../Flex'
+import { TbLayoutGrid } from "react-icons/tb";
+import { HiOutlineGift } from "react-icons/hi";
+import Button from '../Button';
+import ClientsCard from '../ClientsCard';
+import { HiUsers } from "react-icons/hi2";
 const AccountTransfer = () => {
   return (
     <>
-    <div className="my-3.5 pt-32 pb-[140px] bg-[#F8F8F8]">
+    <div className="my-3.5 ">
+      <div className="pt-32 pb-[140px] px-[106px] bg-[#F8F8F8] max-w-[1400px] m-auto rounded-3xl">
+        {/* Account transfer  */}
+<Flex className={'justify-between pb-[100px]'}>
+  <div className="w-[545px]"></div>
+  <div className="">
+    <h4 className='text-[#0E0E0E] font-medium py-1.5 px-3 bg-[#FF5F5F]/12 rounded-[80px] w-fit'>Account Transfer</h4>
+    <h2 className='text-TextColor text-[72px] font-bold leading-[100%] pt-7 pb-[31px] capitalize w-[620px] '> Maximizing Efficiency in Daily Finance</h2>
+    <p className='text-[#6B7280] text-[18px] font-medium leading-[150%] pr-4 pb-[58px] w-[467px]'>See your whole financial picture in one place, alongside a smarter approach to investing and real human.</p>
 
+
+     <Flex className={'gap-x-[108px]'}>
+    <div className="flex items-center gap-x-3 ">
+      <div className="p-3 border border-[#EDEDED] rounded-full">
+<TbLayoutGrid className=' text-[#1C3F3A] text-[24px]'/>
+      </div>
+      <div className="p-3 border border-[#EDEDED] rounded-full">
+<HiOutlineGift className=' text-[#1C3F3A] text-[24px]'/>
+      </div>
+
+    </div>
+    <Button className={'px-4 py-3.5 font-medium bg-[#FF5F5F] rounded-[82px] cursor-pointer'}>Learn More</Button>
+  </Flex>
+  </div>
+ 
+</Flex>
+{/* Key Reasons to Choose Us  */}
+<Flex className={'justify-between pb-[65px]'}>
+  <h2 className='text-TextColor text-[72px] font-bold leading-[100%] capitalize w-[600px]'>Key Reasons to Choose Us</h2>
+  <p className='w-[363px] text-[18px] font-medium text-[#6B7280]'>Whatever your customers' payment preferences, we’ll help you find the right solution for your business.</p>
+</Flex>
+{/* Clints card  */}
+<Flex className={'justify-between'}>
+  <ClientsCard numbers={'20'} ratio={'K'} more={'+'} Feedback={'In 38 countries, we work as one global team to help clients'}>
+<HiUsers className='text-[24px]' />
+<span className='text-[18px]'>Customers</span>
+  </ClientsCard>
+  <ClientsCard numbers={'98'} ratio={'%'} Feedback={'In 38 countries, we work as one global team to help clients'}>
+<HiUsers className='text-[24px]' />
+<span className='text-[18px]'>Customers</span>
+  </ClientsCard>
+  <ClientsCard numbers={'89'} ratio={'%'} Feedback={'In 38 countries, we work as one global team to help clients'}>
+<HiUsers className='text-[24px]' />
+<span className='text-[18px]'>Customers</span>
+  </ClientsCard>
+
+  
+</Flex>
+</div>
     </div>
     </>
   )
