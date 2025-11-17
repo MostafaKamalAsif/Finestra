@@ -2,6 +2,7 @@ import React from 'react'
 import Container from '../Container'
 import Flex from '../Flex'
 import Button from '../Button'
+import BarChartCard from '../BarChartCard'
 
 const MangeMoney = () => {
   return (
@@ -18,6 +19,10 @@ const MangeMoney = () => {
                      <Button className={` py-3.5 px-5 rounded-[66px] bg-[#000000] border cursor-pointer  hover:text-TextColor hover:bg-transparent duration-300`} >Get Started Free</Button>
                      <p className='text-[#6B7280] text-[16px] font-medium pt-[9px]'>explore more about us</p>
                 </div>
+            </Flex>
+
+            <Flex>
+              <BarChartCard/>
             </Flex>
         </Container>
     </div>

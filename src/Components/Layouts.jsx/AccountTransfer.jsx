@@ -7,17 +7,20 @@ import ClientsCard from '../ClientsCard';
 import { HiUsers } from "react-icons/hi2";
 import { FaRegLifeRing } from "react-icons/fa";
 import { HiViewColumns } from "react-icons/hi2";
+import AccountCard from '../AccountCard';
 const AccountTransfer = () => {
   return (
     <>
     <div className="my-3.5 ">
       <div className="pt-32 pb-[140px] px-[106px] bg-[#F8F8F8] max-w-[1400px] m-auto rounded-3xl">
         {/* Account transfer  */}
-<Flex className={'justify-between pb-[100px]'}>
-  <div className="w-[545px]"></div>
+<Flex className={'gap-x-[100px] max-w-[1188px] pb-[100px]'}>
+  <div className="w-[545px]">
+    <AccountCard/>
+  </div>
   <div className="">
     <h4 className='text-[#0E0E0E] font-medium py-1.5 px-3 bg-[#FF5F5F]/12 rounded-[80px] w-fit'>Account Transfer</h4>
-    <h2 className='text-TextColor text-[72px] font-bold leading-[100%] pt-7 pb-[31px] capitalize w-[620px] '> Maximizing Efficiency in Daily Finance</h2>
+    <h2 className='text-TextColor text-[63px] font-bold leading-[100%] pt-7 pb-[31px] capitalize w-[545px] '> Maximizing Efficiency in Daily Finance</h2>
     <p className='text-[#6B7280] text-[18px] font-medium leading-[150%] pr-4 pb-[58px] w-[467px]'>See your whole financial picture in one place, alongside a smarter approach to investing and real human.</p>
 
 
@@ -41,6 +44,7 @@ const AccountTransfer = () => {
   <h2 className='text-TextColor text-[72px] font-bold leading-[100%] capitalize w-[600px]'>Key Reasons to Choose Us</h2>
   <p className='w-[363px] text-[18px] font-medium text-[#6B7280]'>Whatever your customers' payment preferences, we’ll help you find the right solution for your business.</p>
 </Flex>
+
 {/* Clints card  */}
 <Flex className={'justify-between'}>
   <ClientsCard numbers={'20'} ratio={'K'} more={'+'} Feedback={'In 38 countries, we work as one global team to help clients'}>

@@ -4,10 +4,10 @@ import Flex from './Flex'
 const ReviewCard = ({className,leftClassName,rightClassName,UserName,Qualification,Comments,CommentClassName}) => {
   return (
    <>
-   <div className="w-[392px] py-9 px-6 bg-[#F0E6E0] rounded-xl">
-    <Flex className={'gap-x-4 pb-4 items-star'}>
+   <div className="w-[392px] py-9 px-6  bg-[#F0E6E0] rounded-xl">
+    <div className={'flex gap-x-4 pb-4 items-star'}>
 
-    <div className="w-16 h-16 rounded-full overflow-hidden relative">
+    <div className="w-14 h-14 rounded-full overflow-hidden relative">
   
   {/* Main Circle Color */}
   <div className={`w-full h-full ${className}`}></div>
@@ -23,7 +23,7 @@ const ReviewCard = ({className,leftClassName,rightClassName,UserName,Qualificati
             <h3 className='text-xl font-medium text-TextColor pb-2'>{UserName}</h3>
             <p className='text-[#656565] text-[16px]'>{Qualification}</p>
         </div>
-    </Flex>
+    </div>
     <p className={`text-[16px] text-TextColor w-[344px]  ${CommentClassName}`}>{Comments}</p>
    </div>
    </>
