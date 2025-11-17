@@ -5,6 +5,8 @@ import { HiOutlineGift } from "react-icons/hi";
 import Button from '../Button';
 import ClientsCard from '../ClientsCard';
 import { HiUsers } from "react-icons/hi2";
+import { FaRegLifeRing } from "react-icons/fa";
+import { HiViewColumns } from "react-icons/hi2";
 const AccountTransfer = () => {
   return (
     <>
@@ -45,13 +47,16 @@ const AccountTransfer = () => {
 <HiUsers className='text-[24px]' />
 <span className='text-[18px]'>Customers</span>
   </ClientsCard>
+<div class="border-l-2 border-dashed border-TextColor h-[161px]"></div>
+
   <ClientsCard numbers={'98'} ratio={'%'} Feedback={'In 38 countries, we work as one global team to help clients'}>
-<HiUsers className='text-[24px]' />
-<span className='text-[18px]'>Customers</span>
+<FaRegLifeRing className='text-[24px]' />
+<span className='text-[18px]'>Impact</span>
   </ClientsCard>
+<div class="border-l-2 border-dashed border-TextColor h-[161px]"></div>
   <ClientsCard numbers={'89'} ratio={'%'} Feedback={'In 38 countries, we work as one global team to help clients'}>
-<HiUsers className='text-[24px]' />
-<span className='text-[18px]'>Customers</span>
+<HiViewColumns className='text-[24px]' />
+<span className='text-[18px]'>Experience</span>
   </ClientsCard>
 
   
