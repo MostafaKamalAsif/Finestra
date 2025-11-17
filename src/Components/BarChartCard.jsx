@@ -1,6 +1,7 @@
 import React from 'react'
 import Flex from './Flex'
 import Switch from './Switch'
+import ToolTip from './ToolTip'
 
 const BarChartCard = () => {
   return (
@@ -40,11 +41,14 @@ const BarChartCard = () => {
              <div class="absolute top-[51px] border-t-2 border-dashed border-[#E5E7EB] w-full"></div>
              <div class="absolute top-[104px] border-t-2 border-dashed border-[#E5E7EB] w-full"></div>
   <div className={'items-start flex gap-x-4.5'}>
-                <div className="w-[74px] h-[68px] bg-[#F7AF5D] rounded-full z-10 "></div>
-                <div className="w-[74px] h-[83px] bg-[#F7AF5D] rounded-full z-10"></div>
-                <div className="w-[74px] h-28 bg-[#F7AF5D] rounded-full z-10"></div>
-                <div className="w-[74px] h-[97px] bg-[#F7AF5D] rounded-full z-10"></div>
-                <div className="w-[74px] h-[77px] bg-[#F7AF5D] rounded-full z-10"></div>
+   <ToolTip className={'h-[68px]'}/>
+   <ToolTip className={'h-[83px]'}/>
+   <ToolTip className={'h-28'}/>
+   <ToolTip className={'h-[97px]'}/>
+   <ToolTip className={'h-[77px]'}/>
+
+                
+               
 
             </div>
             </div>
@@ -62,19 +66,7 @@ const BarChartCard = () => {
             
         </Flex>
     </div>
-    {/* Hover  */}
-    <div className="w-[117px] bg-[#FFFFFF] rounded-lg p-2 shadow-[0_4px_6px_-1px_rgba(0,0,0,0.1)]">
-        <h4 className='font-medium text-[16px] text-[#000000] pb-1 leading-[130%]'>73,901</h4>
-        <Flex className={'gap-x-[2.5px]'}>
-            <div className="w-2 h-2 bg-[#FDE7CD] rounded-xs"></div>
-            <span className='text-[#374151] text-[10px]'>Current Income</span>
-        </Flex>
-        <Flex className={'gap-x-[2.5px] pt-4 pb-1'}>
-            <div className="w-2 h-2 bg-[#F7AF5D] rounded-xs"></div>
-            <span className='text-[#374151] text-[10px]'>Current Experience</span>
-        </Flex>
-        <h4 className='font-medium text-[16px] text-[#000000] leading-[130%] '>98,032</h4>
-    </div>
+   
     </>
   )
 }

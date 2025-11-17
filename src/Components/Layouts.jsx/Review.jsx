@@ -59,7 +59,7 @@ const Review = () => {
               }
                CommentClassName={'leading-[150%] pr-1'}
             />
-            <div className="-translate-y-14">
+            <div className="-translate-y-15">
               <ReviewCard
                 className={"bg-[#000000]/20"}
                 UserName={"David K."}
