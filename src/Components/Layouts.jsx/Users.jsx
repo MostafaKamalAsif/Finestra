@@ -41,7 +41,7 @@ const Users = () => {
       </h3>
 
       <div className="relative">
-        <Slider {...settings} className='space-x-[54.61px]'>
+        <Slider {...settings} className='gap-x-[54.61px] '>
 
           {/* Original images */}
           <div><Image imgsrc={Circooles} /></div>
