@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import Image from '../Image'
-import Logo from '/src/assets/Logo.png'
+import Logo from '/src/assets/Logo.svg'
 import { TbHome2 } from "react-icons/tb";
 import { FaUser } from "react-icons/fa";
 import { RiChat3Line } from "react-icons/ri";
