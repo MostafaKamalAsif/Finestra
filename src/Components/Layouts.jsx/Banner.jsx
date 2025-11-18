@@ -7,7 +7,7 @@ import { FaStar } from "react-icons/fa";
 const Banner = () => {
   return (
     <>
-    <div className="px-5 pb-7.5">
+    <div className="px-5 pb-7.5 ">
     <div className="bg-[url(/src/assets/Banner.svg)] bg-center bg-cover bg-no-repeat pt-[88px] pb-[536px] rounded-4xl dark:invert">
     
     {/* Heading with fade-in animation */}
