@@ -7,7 +7,10 @@ const ToolTip = ({className}) => {
      <div className="relative group flex justify-center">
   
   {/* Your Bar */}
-  <div className={`w-[74px]  bg-[#F7AF5D] rounded-full z-10 ${className}`}></div>
+ 
+    <div className={`w-[74px]  bg-[#F7AF5D] rounded-full z-10 ${className}`}></div>
+  
+  
 
   {/* Tooltip */}
   <div className="absolute

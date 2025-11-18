@@ -18,13 +18,13 @@ const ClientsCard = ({ children, Feedback, numbers,ratio,more }) => {
   }, []);
 
   return (
-    <div ref={ref} className="w-[324px] rounded-3xl p-6 dark:bg-[#0B0B0B] bg-white">
-      <Flex className="px-2 py-1 gap-x-2 text-[#FF5F5F] bg-[#FF5F5F]/8 rounded-sm mb-4 w-fit">
+    <div ref={ref} className="m-auto md:m-0 w-[324px] rounded-3xl mb-3 md:mb-0 p-6 dark:bg-[#0B0B0B] bg-white">
+      <Flex className="px-2 py-1 gap-x-2 text-[#FF5F5F] bg-[#FF5F5F]/8 rounded-sm mb-4 flex w-fit">
         {children}
       </Flex>
 
       <Flex className="items-start text-SecondryColor pb-8">
-        <span className="text-[100px] leading-[120%]">
+        <span className="text-[70px] md:text-[100px] leading-[120%]">
           {start ? (
             <CountUp start={0} end={numbers} duration={5} separator="," />
           ) : (

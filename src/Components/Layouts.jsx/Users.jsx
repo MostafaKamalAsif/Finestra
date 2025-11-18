@@ -34,7 +34,7 @@ const Users = () => {
   };
 
   return (
-    <div className="pt-5 pb-[41px] max-w-[1261.56px] m-auto">
+    <div className="pt-5 pb-7 md:pb-[41px] max-w-[520px] md:max-w-[680px] lg:max-w-[1261.56px] m-auto">
 
       <h3 className='text-center text-TextColor font-medium text-xl pb-8'>
         Loved by 25 million+ users

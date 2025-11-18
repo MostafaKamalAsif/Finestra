@@ -42,7 +42,7 @@ function App() {
       }} />
 
       {/* Sections with refs */}
-      <div ref={bannerRef}><Banner/></div>
+      <div ref={bannerRef} ><Banner/></div>
       <div ><Users/></div>
       <div ref={mangeMoneyRef}><MangeMoney/></div>
       <div ref={accountTransferRef}><AccountTransfer/></div>

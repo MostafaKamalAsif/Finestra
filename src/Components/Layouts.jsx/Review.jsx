@@ -6,32 +6,32 @@ import ReviewCard from "../ReviewCard";
 const Review = () => {
   return (
     <>
-      <div className="bg-[url(/src/assets/ReviewBanner.svg)] bg-center bg-cover bg-no-repeat pt-28 pb-[103px] dark:invert">
+      <div className="bg-[url(/src/assets/ReviewBanner.svg)] bg-center bg-cover bg-no-repeat pt-19 pb-[51px]  md:pt-28 md:pb-[103px]  dark:invert">
         <Container>
-          <Flex className={"justify-center gap-x-[52.5px]"}>
-            <span className="text-[#344054] text-[18px] font-medium">
+          <Flex className={"justify-center flex gap-x-[52.5px]"}>
+            <span className="text-[#344054] md:text-[18px] font-medium">
               Our Customers
             </span>
-            <span className="text-[#344054] text-[18px] font-medium">
+            <span className="text-[#344054] md:text-[18px] font-medium">
               Talk About IT
             </span>
-            <span className="text-[#344054] text-[18px] font-medium">
+            <span className="text-[#344054] md:text-[18px] font-medium">
               Better Than Us
             </span>
           </Flex>
-          <div className="w-[687px] m-auto text-center pt-8 pb-[53px]">
-            <h2 className="text-TextColor dark:text-[#08080C] text-[72px] font-medium leading-[100%] capitalize ">
+          <div className="md:w-[687px] m-auto text-center pt-8 pb-[53px]">
+            <h2 className="text-TextColor dark:text-[#08080C] text-4xl md:text-[72px] font-medium leading-[100%] capitalize ">
               Hear What Customer Have to Say
             </h2>
-            <p className="w-[467px] m-auto text-[#6B7280] text-[18px] capitalize leading-[150%] pt-9">
+            <p className="w-[420px] md:w-[467px] m-auto text-[#6B7280] text-[18px] capitalize leading-[150%] pt-9">
               See your whole financial picture in one place, alongside a smarter
               approach to investing and real human.
             </p>
           </div>
           {/* Reviews  */}.
-          <Flex className={"flex-wrap max-w-[1208px] m-auto gap-4 items-start"}>
+          <Flex className={"flex-wrap flex max-w-[520px] md:max-w-[680px] lg:max-w-[1208px] m-auto gap-4 items-start"}>
             <ReviewCard
-              className={"bg-[#FFBC99]"}
+              className={"bg-[#FFBC99] dark:bg-[#004366]"}
               UserName={"Megan"}
               Qualification={"Student at New York University"}
               Comments={
@@ -41,7 +41,7 @@ const Review = () => {
             />
 
             <ReviewCard
-              className={"bg-[#000000]/20 "} 
+              className={"bg-[#000000]/20 dark:bg-[#FFFFFF]/20"} 
               UserName={"Jerry Tang"}
               Qualification={"Recent graduate, Marketing at Sweatpals"}
               Comments={
@@ -51,7 +51,7 @@ const Review = () => {
             />
 
             <ReviewCard
-              className={"bg-[#000000]/20"} leftClassName={'bg-[#F2F2F4] w-full h-1.5 rounded-tl-full'} rightClassName={''}
+              className={"bg-[#000000]/20 dark:bg-[#FFFFFF]/20"} leftClassName={'bg-[#F2F2F4] dark:bg-[#0D0D0B] w-full h-1 rounded-tl-full'} rightClassName={''}
               UserName={"Jerry Tang"}
               Qualification={"Recent graduate, Marketing at Sweatpals"}
               Comments={
@@ -59,9 +59,9 @@ const Review = () => {
               }
                CommentClassName={'leading-[150%] pr-1'}
             />
-            <div className="-translate-y-15">
+            <div className="m-auto md:m-0 md:-translate-y-15">
               <ReviewCard
-                className={"bg-[#000000]/20"}
+                className={"bg-[#000000]/20 dark:bg-[#FFFFFF]/20"}
                 UserName={"David K."}
                 Qualification={"Recent graduate, Marketing at Sweatpals"}
                 
@@ -72,7 +72,7 @@ const Review = () => {
               />
             </div>
             <ReviewCard
-              className={"bg-[#000000]/20"} leftClassName={'bg-[#F2F2F4] w-1.5 h-full '} rightClassName={'bg-[#F2F2F4] w-1 h-full '}
+              className={"bg-[#000000]/20 dark:bg-[#FFFFFF]/20"} leftClassName={'bg-[#F2F2F4] dark:bg-[#0D0D0B] w-1 h-full '} rightClassName={'bg-[#F2F2F4] dark:bg-[#0D0D0B]  w-[2px] h-full '}
               UserName={"Megan"}
               Qualification={"Student at New York University"}
               Comments={
@@ -80,9 +80,9 @@ const Review = () => {
               }
                CommentClassName={'leading-[150%]'}
             />
-            <div className="-translate-y-9">
+            <div className="m-auto md:m-0 md:-translate-y-9">
               <ReviewCard
-                className={"bg-[#000000]/20"}
+                className={"bg-[#000000]/20 dark:bg-[#FFFFFF]/20"}
                 UserName={"David K."}
                 Qualification={"Recent graduate"}
                 Comments={

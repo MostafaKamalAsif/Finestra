@@ -29,7 +29,7 @@ const Header = ({ scrollToSection, refs }) => {
 
   return (
     <header className='bg-white dark:bg-gray-900 animate-fade-in-down sticky top-0 z-50'>
-      <div className="flex max-w-[1400px] m-auto pt-[13px] pb-3.5 px-4 md:px-6 lg:px-8 justify-between items-center">
+      <div className="flex max-w-[520px] md:max-w-[680px] lg:max-w-[1400px] m-auto pt-[13px] pb-3.5 px-4 md:px-6 lg:px-8 justify-between items-center">
         {/* Logo */}
         <div className='flex items-center gap-x-[9px]'>
           <Image imgsrc={Logo} className={'pt-1 pb-0.5 hover-scale'} />
@@ -56,11 +56,11 @@ const Header = ({ scrollToSection, refs }) => {
             <Mode />
             <Flex className={`gap-x-2.5 hover-scale`}>
               <div className="w-10 h-10 rounded-full bg-[#000000]/20 dark:bg-white/20 overflow-hidden relative">
-                <div className="absolute left-0 top-0 w-[4px] h-full bg-[#F2F2F4] dark:bg-gray-700 progress-animate"></div>
+                <div className="absolute left-0 top-0 w-[4px] h-full bg-[#F2F2F4] dark:bg-gray-700 "></div>
               </div>
-              <Flex className={`gap-x-[7px]`}>
+              <Flex className={`flex gap-x-[7px]`}>
                 <span className='text-TextColor dark:text-white text-[16px]'>+pro </span> 
-                <span className='w-6 h-6 text-[16px] rounded-full border-2 border-black dark:border-white font-bold text-center animate-spin-slow'>$</span>
+                <span className='w-6 h-6 text-[16px] rounded-full border-2 border-black dark:border-white font-medium text-center '>$</span>
               </Flex>
             </Flex>
             <button className='px-7.5 py-[11px] rounded-[52px] border-2 border-[#D1D5DB] dark:border-gray-600 text-TextColor dark:text-white hover-border-glow button-press'>
