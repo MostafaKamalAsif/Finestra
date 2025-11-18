@@ -13,7 +13,7 @@ const AccountCard = () => {
 
   return (
    <>
-   <div className="w-[400px]  md:w-[545px] p-5 md:pt-14 md:pb-14.5 md:px-14 bg-[#EBEBEB] dark:bg-gray-800 rounded-[40px] font-inter scroll-reveal-scale">
+   <div className="w-[350px]  md:w-[545px] p-3 md:pt-14 md:pb-14.5 md:px-14 bg-[#EBEBEB] dark:bg-gray-800 rounded-[40px] font-inter scroll-reveal-scale">
     <div className="w-[90%] md:w-[433px] m-auto">
       {/* Connected Account */}
       <div className="bg-[#FFFFFF] dark:bg-gray-700 rounded-2xl p-6 card-hover">
