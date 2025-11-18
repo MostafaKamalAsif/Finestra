@@ -64,7 +64,7 @@ const MangeMoney = () => {
           <BarChartCard />
 
           {/* Quick Transfer */}
-          <div className="w-[420px] m-auto md:m-0 md:w-[532px] max-h-[415px] bg-[#F6F6F6] dark:bg-gray-800 rounded-3xl mt-4 md:mt-4 px-6 pt-6 pb-[41px] ">
+          <div className="w-[420px] mx-auto md:mx-0  md:w-[532px] max-h-[415px] bg-[#F6F6F6] dark:bg-gray-800 rounded-3xl mt-4 md:mt-0 px-6 pt-6 pb-[41px] ">
             <Flex className={'justify-between'}>
               <h3 className='text-[18px] text-center md:text-start pb-2 md:pb-0 md:text-[28px] text-TextColor'>Quick Transfer</h3>
               <Flex className={'text-center '}>
