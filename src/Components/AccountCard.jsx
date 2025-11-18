@@ -43,7 +43,7 @@ const AccountCard = () => {
       </div>
 
       {/* Expense Breakdown */}
-      <div className="bg-[#FFFFFF] dark:bg-gray-700 rounded-2xl p-6 mt-2 card-hover">
+      <div className="bg-[#FFFFFF] dark:bg-gray-700 rounded-2xl p-6 mt-2 card-hover w-full">
           <Flex className={'justify-between flex gap-x-2 pb-[35px]'}>
             <h4 className='font-medium text-[16px] text-[#000000] dark:text-white'>Expense Breakdown</h4>
             <HiOutlineDotsHorizontal className='text-[24px] text-[#282930] dark:text-white icon-spin-hover'/>
@@ -56,7 +56,7 @@ const AccountCard = () => {
                       <h3 className='text-[12px] font-medium text-[#6B7280] dark:text-gray-400'>Software</h3>
                       <span className='font-medium text-[#000000] dark:text-white pt-1.5'>32%</span>
                   </div>
-                  <Image imgsrc={Sub} className={'px-1'}/>
+                  <Image imgsrc={Sub} className={'px-1 w-28 h-10 md:w-full md:h-fu'}/>
               </div>
 
               <div className="border-l-2 border-dashed border-[#D1D5DB] dark:border-gray-600 h-[103px]"></div>
@@ -65,7 +65,7 @@ const AccountCard = () => {
                       <h3 className='text-[12px] font-medium text-[#6B7280] dark:text-gray-400'>Software</h3>
                       <span className='font-medium text-[#000000] dark:text-white pt-1.5'>24.8%</span>
                   </div>
-                  <Image imgsrc={Software} className={'px-1'}/>
+                  <Image imgsrc={Software} className={'px-1 w-19 h-10 md:w-full md:h-full'}/>
               </div>
 
               <div className="border-l-2 border-dashed border-[#D1D5DB] dark:border-gray-600 h-[103px]"></div>
@@ -74,7 +74,7 @@ const AccountCard = () => {
                       <h3 className='text-[12px] font-medium text-[#6B7280] dark:text-gray-400'>Subscriptions</h3>
                       <span className='font-medium text-[#000000] dark:text-white pt-1.5'>65.8%</span>
                   </div>
-                  <Image imgsrc={RightSoftware} className={'px-1 w-full h-10 md:h-full'}/>
+                  <Image imgsrc={RightSoftware} className={'px-1 md:w-full w-21 h-10 md:h-full'}/>
               </div>
           </Flex>
       </div>

@@ -533,3 +533,81 @@ html {
   background-color: #FF5F5F;
   color: white;
 }
+
+/* Add this to your App.css file - it prevents horizontal scroll */
+
+/* ============================================
+   MOBILE OVERFLOW FIX
+   ============================================ */
+
+/* Prevent horizontal scroll globally */
+html, body {
+  overflow-x: hidden;
+  max-width: 100vw;
+}
+
+/* Ensure all containers respect viewport width */
+#root {
+  overflow-x: hidden;
+  max-width: 100vw;
+}
+
+/* Fix for components with fixed widths on mobile */
+@media (max-width: 480px) {
+  /* Ensure no element exceeds viewport */
+  * {
+    max-width: 100vw;
+  }
+  
+  /* Add padding to prevent edge touching */
+  body {
+    padding: 0 10px;
+  }
+}
+
+/* ============================================
+   COMPONENT-SPECIFIC FIXES
+   ============================================ */
+
+/* This CSS should be added to make components responsive */
+/* You can either add these directly to the components or keep them here */
+
+/* AccountCard fix */
+@media (max-width: 480px) {
+  /* Target the outer div in AccountCard */
+  .w-\[400px\] {
+    width: 100% !important;
+    max-width: calc(100vw - 32px) !important;
+  }
+}
+
+/* BarChartCard fix */
+@media (max-width: 480px) {
+  .w-\[420px\] {
+    width: 100% !important;
+    max-width: calc(100vw - 32px) !important;
+  }
+}
+
+/* ReviewCard fix */
+@media (max-width: 480px) {
+  .w-\[392px\] {
+    width: 100% !important;
+    max-width: calc(100vw - 32px) !important;
+  }
+}
+
+/* Quick Transfer section fix */
+@media (max-width: 480px) {
+  .w-\[532px\] {
+    width: 100% !important;
+    max-width: calc(100vw - 32px) !important;
+  }
+}
+
+/* Container adjustments */
+@media (max-width: 768px) {
+  .max-w-\[500px\] {
+    padding: 0 16px;
+  }
+}
