@@ -9,6 +9,7 @@ import Slider from "react-slick";
 import { GrNext } from "react-icons/gr";
 // Custom Next Arrow Component
 const NextArrow = ({ onClick }) => {
+ 
   return (
     <div
       onClick={onClick}
@@ -20,12 +21,13 @@ const NextArrow = ({ onClick }) => {
     >
       <GrNext className='w-[29px] h-[29px] text-TextColor dark:text-[#08080C]'/>
     </div>
+    
   );
 };
 
 const MangeMoney = () => {
   const [Active, setActive] = useState('Contact');
-
+ const PrevArrow = () => <div style={{ display: "none" }} />;
   const settings = {
     dots: false,
     infinite: false,
@@ -33,7 +35,7 @@ const MangeMoney = () => {
     slidesToShow: 3,
     slidesToScroll: 1,
     nextArrow: <NextArrow />,
-    prevArrow:null, // hide prev arrow
+    prevArrow: <PrevArrow />
   };
 
   return (
