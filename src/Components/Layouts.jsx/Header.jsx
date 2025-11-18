@@ -30,9 +30,9 @@ const Header = ({ scrollToSection, refs }) => {
 
   return (
     <>
-    <Container>
+    
     <header className='bg-white dark:bg-gray-900 animate-fade-in-down sticky top-0 z-50'>
-      
+      <Container>
       <div className="flex  max-w-[500px] md:max-w-[720px] lg:max-w-[1400px] mx-auto pt-[13px] pb-3.5 px-4 md:px-6 lg:px-8 justify-between items-center">
         {/* Logo */}
         <div className='flex items-center gap-x-[9px]'>
@@ -60,7 +60,7 @@ const Header = ({ scrollToSection, refs }) => {
             <Mode />
             <Flex className={`gap-x-2.5 hover-scale`}>
               <div className="w-10 h-10 rounded-full bg-[#000000]/20 dark:bg-white/20 overflow-hidden relative">
-                <div className="absolute left-0 top-0 w-[4px] h-full bg-[#F2F2F4] dark:bg-gray-700 "></div>
+                <div className="absolute left-0 top-0 w-1 h-full bg-[#F2F2F4] dark:bg-gray-700 "></div>
               </div>
               <Flex className={`flex gap-x-[7px]`}>
                 <span className='text-TextColor dark:text-white text-[16px]'>+pro </span> 
@@ -118,9 +118,9 @@ const Header = ({ scrollToSection, refs }) => {
           </div>
         </div>
       </div>
-      
+      </Container>
     </header>
-    </Container>
+    
     </>
   )
 }
