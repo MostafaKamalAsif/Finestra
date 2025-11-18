@@ -534,10 +534,10 @@ html {
   color: white;
 }
 
-/* Add this to your App.css file - it prevents horizontal scroll */
+
 
 /* ============================================
-   MOBILE OVERFLOW FIX
+   MOBILE OVERFLOW 
    ============================================ */
 
 /* Prevent horizontal scroll globally */
@@ -565,14 +565,10 @@ html, body {
   }
 }
 
-/* ============================================
-   COMPONENT-SPECIFIC FIXES
-   ============================================ */
 
-/* This CSS should be added to make components responsive */
-/* You can either add these directly to the components or keep them here */
 
-/* AccountCard fix */
+
+
 @media (max-width: 480px) {
   /* Target the outer div in AccountCard */
   .w-\[400px\] {
@@ -611,3 +607,4 @@ html, body {
     padding: 0 16px;
   }
 }
+

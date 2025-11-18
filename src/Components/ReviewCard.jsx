@@ -4,7 +4,7 @@ import Flex from './Flex'
 const ReviewCard = ({className, leftClassName, rightClassName, UserName, Qualification, Comments, CommentClassName}) => {
   return (
    <>
-   <div className="w-[392px] m-auto md:m-0 py-9 px-6 bg-[#F0E6E0] dark:bg-gray-800 rounded-xl scroll-reveal card-hover">
+   <div className="w-[380px] md:w-[392px] m-auto md:m-0 py-9 px-6 bg-[#F0E6E0] dark:bg-gray-800 rounded-xl scroll-reveal card-hover">
     <div className={'flex gap-x-4 pb-4 items-star'}>
 
     <div className="w-14 h-14 rounded-full overflow-hidden relative hover-rotate">
