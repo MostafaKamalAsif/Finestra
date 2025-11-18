@@ -23,7 +23,7 @@ const Review = () => {
             <h2 className="text-TextColor dark:text-[#08080C] text-4xl md:text-[72px] font-medium leading-[100%] capitalize ">
               Hear What Customer Have to Say
             </h2>
-            <p className="w-[420px] md:w-[467px] m-auto text-[#6B7280] text-[18px] capitalize leading-[150%] pt-9">
+            <p className="w-[410px] md:w-[467px] m-auto text-[#6B7280] text-[18px] capitalize leading-[150%] pt-9">
               See your whole financial picture in one place, alongside a smarter
               approach to investing and real human.
             </p>
