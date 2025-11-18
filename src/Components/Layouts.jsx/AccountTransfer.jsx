@@ -12,7 +12,7 @@ const AccountTransfer = () => {
   return (
     <>
       <div className="my-3.5 ">
-        <div className="pt-16 pb-[100px] px-2.5 md:pt-32 md:pb-[140px] md:px-[106px] bg-[#F8F8F8] dark:bg-[#1A1A1A] min-w-[420px] md:max-w-[680px] lg:max-w-[1400px] m-auto rounded-3xl">
+        <div className="pt-16 pb-[100px] px-2.5 md:pt-32 md:pb-[140px] md:px-[106px] bg-[#F8F8F8] dark:bg-[#1A1A1A] mix-w-[520px] md:max-w-[680px] lg:max-w-[1400px] m-auto rounded-3xl">
           {/* Account transfer  */}
           <Flex className={"gap-x-[100px] max-w-[1188px] md:pb-[100px]"}>
             <div className="w-[545px]">
