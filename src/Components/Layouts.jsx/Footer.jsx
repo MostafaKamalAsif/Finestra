@@ -10,7 +10,7 @@ const Footer = () => {
     <>
     <div className="bg-[url(/src/assets/Footer.svg)] bg-center bg-cover bg-no-repeat pt-12 md:pt-[86px] pb-[46px] overflow-hidden  rounded-4xl dark:invert filter">
     
-    <Container>
+    <div className='max-w-[500px] md:max-w-[720px]  lg:max-w-[1296px] m-auto'>
       {/* Top part  */}
         <Flex className={'flex justify-between pb-[60px] md:pb-[120px] '}>
             <h2 className='text-[24px] md:text-[80px] font-medium text-TextColor dark:text-[#08080C] scroll-reveal-left'>Let's Sit &Talk</h2>
@@ -84,7 +84,7 @@ const Footer = () => {
           </div>
         </Flex>
 
-    </Container>
+    </div>
     </div>
     </>
   )

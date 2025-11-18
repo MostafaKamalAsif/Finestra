@@ -41,6 +41,7 @@ const MangeMoney = () => {
   return (
     <div className="py-[72px] md:py-[92px]">
       <Container>
+        <div className="max-w-[1296px] m-auto">
         <Flex className={'items-end '}>
           <div className=" md:w-[649px]">
             <h2 className='text-[35px] md:text-[72px] font-medium leading-[110%] md:pr-40 text-TextColor text-center md:text-start'>
@@ -121,6 +122,7 @@ const MangeMoney = () => {
 <hr className='border-TextColor/16 mt-6.5'/>
           </div>
         </Flex>
+        </div>
       </Container>
     </div>
   );

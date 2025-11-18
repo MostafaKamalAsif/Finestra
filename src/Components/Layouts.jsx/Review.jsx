@@ -29,7 +29,7 @@ const Review = () => {
             </p>
           </div>
           {/* Reviews  */}.
-          <Flex className={"flex-wrap flex max-w-[520px] md:max-w-[680px] lg:max-w-[1208px] m-auto gap-4 items-start"}>
+          <Flex className={"flex-wrap flex max-w-[1208px] m-auto gap-4 items-start"}>
             <ReviewCard
               className={"bg-[#FFBC99] dark:bg-[#004366]"}
               UserName={"Megan"}

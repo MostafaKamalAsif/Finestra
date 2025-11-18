@@ -8,11 +8,13 @@ import { HiUsers } from "react-icons/hi2";
 import { FaRegLifeRing } from "react-icons/fa";
 import { HiViewColumns } from "react-icons/hi2";
 import AccountCard from "../AccountCard";
+import Container from "../Container";
 const AccountTransfer = () => {
   return (
     <>
       <div className="my-3.5 ">
-        <div className="pt-16 pb-[100px] px-2.5 md:pt-32 md:pb-[140px] md:px-[106px] bg-[#F8F8F8] dark:bg-[#1A1A1A] mix-w-[520px] md:max-w-[680px] lg:max-w-[1400px] m-auto rounded-3xl">
+        <Container>
+        <div className="pt-16 pb-[100px] px-2.5 md:pt-32 md:pb-[140px] md:px-[106px] bg-[#F8F8F8] dark:bg-[#1A1A1A]  m-auto rounded-3xl">
           {/* Account transfer  */}
           <Flex className={"gap-x-[100px] max-w-[1188px] md:pb-[100px]"}>
             <div className="w-[545px]">
@@ -60,7 +62,7 @@ const AccountTransfer = () => {
           </Flex>
 
           {/* Key Reasons to Choose Us  */}
-          <Flex className={"justify-between pt-12 md:pt-0 pb-[65px]"}>
+          <Flex className={"justify-between max-w-[1202px] m-auto pt-12 md:pt-0 pb-[65px]"}>
             <h2 className="text-TextColor text-4xl md:text-[72px] font-bold leading-[100%] capitalize md:w-[600px]">
               Key Reasons to Choose Us
             </h2>
@@ -71,7 +73,8 @@ const AccountTransfer = () => {
           </Flex>
 
           {/* Clints card  */}
-          <Flex className={"  justify-between"}>
+          <div className="max-w-[1188px] m-auto">
+          <Flex className={"   justify-between"}>
             <ClientsCard
               numbers={"20"}
               ratio={"K"}
@@ -107,7 +110,9 @@ const AccountTransfer = () => {
               <span className="text-[18px]">Experience</span>
             </ClientsCard>
           </Flex>
+          </div>
         </div>
+        </Container>
       </div>
     </>
   );

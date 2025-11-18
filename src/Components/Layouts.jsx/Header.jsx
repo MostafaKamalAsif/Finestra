@@ -8,6 +8,7 @@ import { MdOutlineMedicalServices } from "react-icons/md";
 import { HiMenuAlt3, HiX } from "react-icons/hi";
 import Mode from '../Mode';
 import Flex from '../Flex';
+import Container from '../Container';
 
 const Header = ({ scrollToSection, refs }) => {
   const [active, setActive] = useState('Home');
@@ -28,8 +29,10 @@ const Header = ({ scrollToSection, refs }) => {
   };
 
   return (
+    <>
     <header className='bg-white dark:bg-gray-900 animate-fade-in-down sticky top-0 z-50'>
-      <div className="flex max-w-[520px] md:max-w-[680px] lg:max-w-[1400px] m-auto pt-[13px] pb-3.5 px-4 md:px-6 lg:px-8 justify-between items-center">
+      <Container>
+      <div className="flex  max-w-[500px] md:max-w-[720px] lg:max-w-[1400px] mx-auto pt-[13px] pb-3.5 px-4 md:px-6 lg:px-8 justify-between items-center">
         {/* Logo */}
         <div className='flex items-center gap-x-[9px]'>
           <Image imgsrc={Logo} className={'pt-1 pb-0.5 hover-scale'} />
@@ -114,7 +117,9 @@ const Header = ({ scrollToSection, refs }) => {
           </div>
         </div>
       </div>
+      </Container>
     </header>
+    </>
   )
 }
 
