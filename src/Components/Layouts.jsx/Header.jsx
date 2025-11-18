@@ -99,11 +99,11 @@ const Header = ({ scrollToSection, refs }) => {
 
           {/* Mobile Footer */}
           <div className="mt-4 pt-4 border-t border-gray-700 flex flex-col gap-y-3">
-            <Flex className={`gap-x-2.5 justify-center`}>
+            <Flex className={`flex gap-x-2.5 justify-center`}>
               <div className="w-10 h-10 rounded-full bg-white/20 overflow-hidden relative">
                 <div className="absolute left-0 top-0 w-[4px] h-full bg-gray-400 progress-animate"></div>
               </div>
-              <Flex className={`gap-x-[7px]`}>
+              <Flex className={`flex gap-x-[7px]`}>
                 <span className='text-white text-[16px]'>+pro </span> 
                 <span className='w-6 h-6 text-[16px] rounded-full border-2 border-white font-bold text-center text-white'>$</span>
               </Flex>
