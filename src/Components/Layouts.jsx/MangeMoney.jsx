@@ -14,11 +14,11 @@ const NextArrow = ({ onClick }) => {
       onClick={onClick}
       className="absolute top-1/2 -right-12 transform -translate-y-1/2 z-10 
                  w-12.5 h-12.5 flex items-center justify-center 
-                 rounded-full border border-[#212121]/50 bg-transparent
-                 shadow-lg cursor-pointer hover:bg-gray-100
+                 rounded-full border border-[#212121]/50 bg-white
+                 shadow-lg cursor-pointer 
                  transition-all duration-300"
     >
-      <GrNext className='w-[29px] h-[29px] text-TextColor'/>
+      <GrNext className='w-[29px] h-[29px] text-TextColor dark:text-[#08080C]'/>
     </div>
   );
 };
@@ -61,12 +61,30 @@ const MangeMoney = () => {
           <BarChartCard />
 
           {/* Quick Transfer */}
-          <div className="w-[532px] max-h-[415px] bg-[#F6F6F6] rounded-3xl px-6 pt-6 pb-[41px]">
+          <div className="w-[532px] max-h-[415px] bg-[#F6F6F6] dark:bg-gray-800 rounded-3xl px-6 pt-6 pb-[41px]">
             <Flex className={'justify-between'}>
               <h3 className='text-[28px] text-TextColor'>Quick Transfer</h3>
               <Flex>
-                <button onClick={() => setActive('All')} className={`text-[18px] text-TextColor w-[80px] ${Active === "All" ? 'p-[13px] bg-[#FF5F5F]/20 rounded-[50px]' : ""}`}>All</button>
-                <button onClick={() => setActive('Contact')} className={`text-[18px] w-[102px] text-TextColor ${Active === "Contact" ? 'p-[13px] bg-[#FF5F5F]/20 rounded-[50px]' : ""}`}>Contact</button>
+               <button
+  onClick={() => setActive('All')}
+  className={`text-[18px] text-TextColor w-[80px] 
+    ${Active === "All" 
+      ? 'p-[13px] bg-[#FF5F5F]/20 dark:bg-[#FF5F5F]/30 rounded-[50px]' 
+      : ""}`}
+>
+  All
+</button>
+
+<button
+  onClick={() => setActive('Contact')}
+  className={`text-[18px] w-[102px] text-TextColor 
+    ${Active === "Contact" 
+      ? 'p-[13px] bg-[#FF5F5F]/20 dark:bg-[#FF5F5F]/30 rounded-[50px]' 
+      : ""}`}
+>
+  Contact
+</button>
+
               </Flex>
             </Flex>
           
@@ -76,7 +94,7 @@ const MangeMoney = () => {
               {/* Add New - stays fixed */}
               <div className="flex flex-col items-center pr-5.5">
                 <div className="w-20 h-20 border-2 border-dashed border-[#898989] mb-3 rounded-full flex items-center justify-center">
-                  <span className="text-[#282930] text-xl">+</span>
+                  <span className="text-[#282930] dark:text-TextColor text-xl ">+</span>
                 </div>
                 <span className='text-TextColor font-medium text-[18px] pl-[3px]'>Add New</span>
               </div>
@@ -94,8 +112,8 @@ const MangeMoney = () => {
               </div>
             </div>
 
-<Flex className={'justify-between pt-[56px] '}>
-  <h3 className='font-medium text-[#212121] text-[56px]'>$349.<span className='text-[#212121]/60'>00</span></h3>
+<Flex className={'justify-between pt-14 '}>
+  <h3 className='font-medium text-[#212121] dark:text-white text-[56px]'>$349.<span className='text-[#212121]/60 dark:text-white/60'>00</span></h3>
   <Button className={'w-[147px] text-center font-medium px-5 py-3.5 bg-[#FF5F5F] rounded-[66px]'}>Send</Button>
 </Flex>
 <hr className='border-TextColor/16 pt-6.5'/>

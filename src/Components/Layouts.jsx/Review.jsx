@@ -6,7 +6,7 @@ import ReviewCard from "../ReviewCard";
 const Review = () => {
   return (
     <>
-      <div className="bg-[url(/src/assets/ReviewBanner.svg)] bg-center bg-cover bg-no-repeat pt-28 pb-[103px]">
+      <div className="bg-[url(/src/assets/ReviewBanner.svg)] bg-center bg-cover bg-no-repeat pt-28 pb-[103px] dark:invert">
         <Container>
           <Flex className={"justify-center gap-x-[52.5px]"}>
             <span className="text-[#344054] text-[18px] font-medium">
@@ -20,7 +20,7 @@ const Review = () => {
             </span>
           </Flex>
           <div className="w-[687px] m-auto text-center pt-8 pb-[53px]">
-            <h2 className="text-TextColor text-[72px] font-medium leading-[100%] capitalize ">
+            <h2 className="text-TextColor dark:text-[#08080C] text-[72px] font-medium leading-[100%] capitalize ">
               Hear What Customer Have to Say
             </h2>
             <p className="w-[467px] m-auto text-[#6B7280] text-[18px] capitalize leading-[150%] pt-9">
@@ -29,7 +29,7 @@ const Review = () => {
             </p>
           </div>
           {/* Reviews  */}.
-          <Flex className={"flex-wrap gap-4 items-start"}>
+          <Flex className={"flex-wrap max-w-[1208px] m-auto gap-4 items-start"}>
             <ReviewCard
               className={"bg-[#FFBC99]"}
               UserName={"Megan"}

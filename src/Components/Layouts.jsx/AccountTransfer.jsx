@@ -12,14 +12,15 @@ const AccountTransfer = () => {
   return (
     <>
     <div className="my-3.5 ">
-      <div className="pt-32 pb-[140px] px-[106px] bg-[#F8F8F8] max-w-[1400px] m-auto rounded-3xl">
+      <div className="pt-32 pb-[140px] px-[106px] bg-[#F8F8F8] dark:bg-[#1A1A1A] max-w-[1400px] m-auto rounded-3xl">
         {/* Account transfer  */}
 <Flex className={'gap-x-[100px] max-w-[1188px] pb-[100px]'}>
   <div className="w-[545px]">
     <AccountCard/>
   </div>
   <div className="">
-    <h4 className='text-[#0E0E0E] font-medium py-1.5 px-3 bg-[#FF5F5F]/12 rounded-[80px] w-fit'>Account Transfer</h4>
+    <h4 className='text-[#0E0E0E] font-medium py-1.5 px-3 bg-[#FF5F5F]/12 dark:bg-[#FF5F5F]/70
+ rounded-[80px] w-fit'>Account Transfer</h4>
     <h2 className='text-TextColor text-[63px] font-bold leading-[100%] pt-7 pb-[31px] capitalize w-[545px] '> Maximizing Efficiency in Daily Finance</h2>
     <p className='text-[#6B7280] text-[18px] font-medium leading-[150%] pr-4 pb-[58px] w-[467px]'>See your whole financial picture in one place, alongside a smarter approach to investing and real human.</p>
 

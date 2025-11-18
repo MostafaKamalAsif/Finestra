@@ -1,5 +1,5 @@
 import './App.css'
-import { useRef } from 'react';
+import { useRef, useEffect } from 'react';
 import Header from './Components/Layouts.jsx/Header'
 import Banner from './Components/Layouts.jsx/Banner'
 import Users from './Components/Layouts.jsx/Users'
@@ -7,6 +7,7 @@ import MangeMoney from './Components/Layouts.jsx/MangeMoney'
 import Footer from './Components/Layouts.jsx/Footer'
 import Review from './Components/Layouts.jsx/Review'
 import AccountTransfer from './Components/Layouts.jsx/AccountTransfer'
+import { initScrollAnimations } from './utils/scrollAnimation';
 
 function App() {
   // Refs for each section
@@ -15,6 +16,12 @@ function App() {
   const accountTransferRef = useRef(null);
   const reviewRef = useRef(null);
   const footerRef = useRef(null);
+
+  // Initialize scroll animations on mount
+  useEffect(() => {
+    const cleanup = initScrollAnimations();
+    return cleanup;
+  }, []);
 
   // Function to scroll to section
   const scrollToSection = (section) => {

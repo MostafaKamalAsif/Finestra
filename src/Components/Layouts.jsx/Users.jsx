@@ -44,25 +44,25 @@ const Users = () => {
         <Slider {...settings} className='gap-x-[54.61px] '>
 
           {/* Original images */}
-          <div><Image imgsrc={Circooles} /></div>
-          <div><Image imgsrc={Quotient} /></div>
-          <div><Image imgsrc={Hourglass} /></div>
-          <div><Image imgsrc={Command} /></div>
-          <div><Image imgsrc={Catalog} className={'pl-5'}/></div>
-          <div><Image imgsrc={Layers} /></div>
+          <div className="dark:invert"><Image imgsrc={Circooles} /></div>
+<div className="dark:invert"><Image imgsrc={Quotient} /></div>
+<div className="dark:invert"><Image imgsrc={Hourglass} /></div>
+<div className="dark:invert"><Image imgsrc={Command} /></div>
+<div className="dark:invert"><Image imgsrc={Catalog} className="pl-5" /></div>
+<div className="dark:invert"><Image imgsrc={Layers} /></div>
 
           {/* Duplicated for smooth infinite loop */}
-          <div><Image imgsrc={Circooles} /></div>
-          <div><Image imgsrc={Quotient} /></div>
-          <div><Image imgsrc={Hourglass} /></div>
-          <div><Image imgsrc={Command} /></div>
-          <div><Image imgsrc={Catalog}  className={'pl-5'} /></div>
-          <div><Image imgsrc={Layers} /></div>
+          <div className="dark:invert"><Image imgsrc={Circooles} /></div>
+<div className="dark:invert"><Image imgsrc={Quotient} /></div>
+<div className="dark:invert"><Image imgsrc={Hourglass} /></div>
+<div className="dark:invert"><Image imgsrc={Command} /></div>
+<div className="dark:invert"><Image imgsrc={Catalog} className="pl-5" /></div>
+<div className="dark:invert"><Image imgsrc={Layers} /></div>
 
         </Slider>
 
         {/* Overlay – fixed */}
-        <div className="absolute inset-0 bg-white/60 pointer-events-none"></div>
+        <div className="absolute inset-0 bg-white/60 dark:bg-transparent pointer-events-none"></div>
       </div>
 
     </div>
