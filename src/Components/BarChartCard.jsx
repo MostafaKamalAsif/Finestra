@@ -6,7 +6,7 @@ import ToolTip from "./ToolTip";
 const BarChartCard = () => {
   return (
     <>
-      <div className="w-[420px] md:w-[748px] p-1.5 md:p-6 bg-[#F6F6F6]  dark:bg-gray-800 rounded-3xl">
+      <div className="w-[420px] m-auto md:m-0 md:w-[748px] p-1.5 md:p-6 bg-[#F6F6F6]  dark:bg-gray-800 rounded-3xl">
         <Flex className={"flex justify-between gap-x-2 md:gap-x-0"}>
           <div className="">
             <button className="border border-[#FF5F5F] rounded-[82px] text-[13px]  md:text-[16px] font-medium py-2 px-5 md:py-[13px] md:px-11 mb-[170px] text-[#FF5F5F]">
@@ -23,7 +23,7 @@ const BarChartCard = () => {
 
           {/* Bar chart  */}
 
-          <div className="w-[65%] md:w-[488px] bg-[#FFFFFF] dark:bg-gray-700 rounded-3xl pt-2.5 md:pt-5 px-3 md:px-6 pb-5 md:pb-10">
+          <div className="w-[65%] m-auto md:m-0 md:w-[488px] bg-[#FFFFFF] dark:bg-gray-700 rounded-3xl pt-2.5 md:pt-5 px-3 md:px-6 pb-5 md:pb-10">
             <Flex className={"flex justify-between pb-[9px]"}>
               <h3 className="text-[#000000] text-[15px] md:text-[24px] font-medium pl-0.5">
                 Expanse Statistic

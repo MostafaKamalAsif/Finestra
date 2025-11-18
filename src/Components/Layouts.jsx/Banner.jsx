@@ -12,7 +12,7 @@ const Banner = () => {
                       pt-12 sm:pt-16 md:pt-20 lg:pt-[88px] 
                       pb-[250px] sm:pb-[350px] md:pb-[450px] lg:pb-[536px] 
                       rounded-2xl sm:rounded-3xl lg:rounded-4xl 
-                      dark:invert max-w-[520px] md:max-w-[680px] lg:max-w-[1400px] m-auto ">
+                      dark:invert mix-w-[520px] md:max-w-[680px] lg:max-w-[1400px] m-auto ">
     
     {/* Heading with fade-in animation */}
     <h1 className='md:w-[900px] md:m-auto text-[40px]  md:text-[100px] leading-[100%] text-center font-medium text-TextColor  animate-fade-in-up dark:text-[#08080C]'>
