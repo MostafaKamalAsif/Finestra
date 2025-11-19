@@ -28,7 +28,7 @@ const AccountCard = () => {
         <div className="bg-[#F6F8FA] dark:bg-gray-600 rounded-lg pt-[13px] hover-lift">
             <Flex className={'flex justify-between pl-3.5 pr-2.5 pb-[15px]'}>
               <h3 className='font-medium text-TextColor dark:text-white'>USD Account</h3>
-              <HiOutlineDotsHorizontal className='text-[24px] text-[#282930] dark:text-white icon-spin-hover'/>
+              <HiOutlineDotsHorizontal className='text-[24px] text-[#282930] dark:text-white '/>
             </Flex>
             <hr className='border-3 border-[#FFFFFF] dark:border-gray-500'/>
             <Flex className={'flex pl-3.5 py-3.5 justify-between md:justify-start'}>
@@ -46,7 +46,7 @@ const AccountCard = () => {
       <div className="bg-[#FFFFFF] dark:bg-gray-700 rounded-2xl p-6 mt-2 card-hover w-full">
           <Flex className={'justify-between flex gap-x-2 pb-[35px]'}>
             <h4 className='font-medium text-[16px] text-[#000000] dark:text-white'>Expense Breakdown</h4>
-            <HiOutlineDotsHorizontal className='text-[24px] text-[#282930] dark:text-white icon-spin-hover'/>
+            <HiOutlineDotsHorizontal className='text-[24px] text-[#282930] dark:text-white '/>
           </Flex>
 
           <Flex className={'flex'}>

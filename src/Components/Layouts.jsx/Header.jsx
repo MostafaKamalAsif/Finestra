@@ -31,7 +31,7 @@ const Header = ({ scrollToSection, refs }) => {
   return (
     <>
     
-    <header className='bg-white dark:bg-gray-900 animate-fade-in-down  top-0 z-50'>
+    <header className='bg-white dark:bg-gray-900 animate-fade-in-down '>
       <Container className={''}>
       <div className="flex  max-w-[500px] md:max-w-[720px] lg:max-w-[1400px] mx-auto pt-[13px] pb-3.5 px-4 md:px-6 lg:px-8 justify-between items-center">
         {/* Logo */}

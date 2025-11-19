@@ -25,7 +25,7 @@ const BarChartCard = () => {
 
           <div className="w-[65%] m-auto md:m-0 md:w-[488px] max-h-[415px] bg-[#FFFFFF] dark:bg-gray-700 rounded-3xl pt-2.5 md:pt-5 px-3 md:px-6 pb-5 md:pb-10">
             <Flex className={"flex justify-between pb-[9px]"}>
-              <h3 className="text-[#000000] text-[15px] md:text-[24px] font-medium pl-0.5">
+              <h3 className="text-[#000000] dark:text-white text-[15px] md:text-[24px] font-medium pl-0.5">
                 Expanse Statistic
               </h3>
               <div className="">

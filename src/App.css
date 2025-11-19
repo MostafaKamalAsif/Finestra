@@ -555,7 +555,6 @@ html, body {
   max-width: 100vw;
 }
 
-/* Fix for components with fixed widths on mobile */
 @media (max-width: 480px) {
   /* Ensure no element exceeds viewport */
   * {
