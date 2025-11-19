@@ -25,6 +25,11 @@
   transition-timing-function: ease-in-out;
 }
 
+/* Prevent transitions from interfering with animations */
+*[class*="animate-"] {
+  transition: none !important;
+}
+
 /* ============================================
    KEYFRAME ANIMATIONS
    ============================================ */
@@ -519,9 +524,7 @@ html {
   scroll-behavior: smooth;
 }
 
-/* ============================================
-   FOCUS VISIBLE FOR ACCESSIBILITY
-   ============================================ */
+
 
 
 

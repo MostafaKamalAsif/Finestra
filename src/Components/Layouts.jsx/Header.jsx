@@ -31,8 +31,8 @@ const Header = ({ scrollToSection, refs }) => {
   return (
     <>
     
-    <header className='bg-white dark:bg-gray-900 animate-fade-in-down sticky top-0 z-50'>
-      <Container>
+    <header className='bg-white dark:bg-gray-900 animate-fade-in-down  top-0 z-50'>
+      <Container className={''}>
       <div className="flex  max-w-[500px] md:max-w-[720px] lg:max-w-[1400px] mx-auto pt-[13px] pb-3.5 px-4 md:px-6 lg:px-8 justify-between items-center">
         {/* Logo */}
         <div className='flex items-center gap-x-[9px]'>
@@ -74,7 +74,7 @@ const Header = ({ scrollToSection, refs }) => {
         </div>
 
         {/* Mobile Menu Button */}
-        <div className="flex lg:hidden items-center gap-x-3 md:gap-x-4">
+        <div className="flex lg:hidden items-center gap-x-3 py-6 md:py-3 md:gap-x-4">
           <Mode />
           <button className='hidden md:block px-4 md:px-6 py-2 md:py-[11px] rounded-[52px] border-2 border-[#D1D5DB] dark:border-gray-600 text-TextColor dark:text-white text-sm md:text-base hover-border-glow button-press'>
             Sign In
@@ -86,7 +86,7 @@ const Header = ({ scrollToSection, refs }) => {
       </div>
 
       {/* Mobile Menu Dropdown */}
-      <div className={`lg:hidden overflow-hidden transition-all duration-300 ease-in-out ${mobileMenuOpen ? 'max-h-screen opacity-100' : 'max-h-0 opacity-0'}`}>
+      <div className={`lg:hidden overflow-hidden  transition-all duration-300 ease-in-out ${mobileMenuOpen ? 'max-h-screen opacity-100' : 'max-h-0 opacity-0'}`}>
         <div className="bg-[#0B0B0B] dark:bg-gray-800 mx-4 mb-4 rounded-3xl p-4 animate-fade-in-down">
           <ul className='flex flex-col gap-y-2'>
             {menuItems.map(item => (
