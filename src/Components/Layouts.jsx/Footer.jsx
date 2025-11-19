@@ -13,18 +13,18 @@ const Footer = () => {
     <div className='max-w-[500px] md:max-w-[720px]  lg:max-w-[1296px] m-auto'>
       {/* Top part  */}
         <Flex className={'flex justify-between pb-[60px] md:pb-[120px] '}>
-            <h2 className='text-[24px] md:text-[80px] font-medium text-TextColor dark:text-[#08080C] scroll-reveal-left'>Let's Sit &Talk</h2>
-            <div className="w-[230px]  md:w-[469px] relative scroll-reveal-right">
+            <h2 className='text-[24px] md:text-4xl lg:text-[80px] font-medium text-TextColor dark:text-[#08080C] scroll-reveal-left'>Let's Sit &Talk</h2>
+            <div className="w-[230px] md:w-[370px] lg:w-[469px] relative scroll-reveal-right">
                 <input 
                   type="email" 
                   placeholder='Enter Your Email' 
-                  className='placeholder:text-[20px] md:placeholder:text-[40px] text-xl md:text-[20px] w-full pt-2 pb-6.5 md:pb-9.5 md:pt-5 outline-none  border-b border-b-SecondryColor dark:border-b-gray-600 bg-transparent text-TextColor dark:text-[#08080C]   duration-300'
+                  className='placeholder:text-[20px] md:placeholder:text-[28px] lg:placeholder:text-[40px] text-xl md:text-[20px] lg:text-[40px] w-full pt-2 pb-6.5 md:pb-9.5 md:pt-5 outline-none  border-b border-b-SecondryColor dark:border-b-gray-600 bg-transparent text-TextColor dark:text-[#08080C]   duration-300'
                 />
-                <GoArrowUpRight className='absolute top-[40%] md:top-[30%] right-5 md:right-0 text-SecondryColor dark:text-[#1F2937] w-5 h-5 md:w-10 md:h-10 -translate-y-1/2 hover-scale icon-scale-hover cursor-pointer'/>
+                <GoArrowUpRight className='absolute top-[40%]  lg:top-[30%] right-5 md:right-5 lg:right-0 text-SecondryColor dark:text-[#1F2937] w-5 h-5 md:w-8 md:h-8 lg:w-10 lg:h-10 -translate-y-1/2 hover-scale icon-scale-hover cursor-pointer'/>
             </div>
         </Flex>
 {/* Address part  */}
-        <Flex className={'items-start justify-between pb-[100px] md:pb-[227px]'}>
+        <Flex className={'items-start flex-wrap md:gap-6 lg:gap-0 justify-between pb-[100px] md:pb-[227px]'}>
           <div className="w-[305px]  md:mr-[383px] scroll-reveal mb-5 md:mb-0">
             <h3 className='text-SecondryColor dark:text-[#1F2937]  text-xl md:text-[24px] pb-6'>Address</h3>
             <p className='text-SecondryColor dark:text-[#1F2937]   md:text-[18px] leading-[150%]'>475 Cherry Dr, Troy, Michigan 48083 United States ( (248) 823-3200 )</p>

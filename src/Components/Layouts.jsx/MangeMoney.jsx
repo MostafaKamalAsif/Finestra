@@ -43,8 +43,8 @@ const MangeMoney = () => {
       <Container>
         <div className="max-w-[1296px] m-auto">
         <Flex className={'items-end '}>
-          <div className=" md:w-[649px]">
-            <h2 className='text-[35px] md:text-[72px] font-medium leading-[110%] md:pr-40 text-TextColor text-center md:text-start'>
+          <div className=" md:w-[500px] lg:w-[649px]">
+            <h2 className='text-[35px] md:text-5xl lg:text-[72px] font-medium leading-[110%] md:pr-40 text-TextColor text-center md:text-start'>
               Manage Money Wisely
             </h2>
             <p className='text-[#6B7280] text-[12px] md:text-[18px] font-medium leading-[170%] pt-6 md:pb-0 pb-5 px-2 md:px-0 text-center md:text-start'>
@@ -60,7 +60,7 @@ const MangeMoney = () => {
           </div>
         </Flex>
 
-        <Flex className={'gap-x-4 pt-8.5'}>
+        <Flex className={'gap-x-4 flex-wrap md:gap-y-4 lg:gap-y-0 md:justify-center lg:justify-start pt-8.5'}>
           <BarChartCard />
 
           {/* Quick Transfer */}

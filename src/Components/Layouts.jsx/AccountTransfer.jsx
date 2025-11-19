@@ -16,7 +16,7 @@ const AccountTransfer = () => {
         <Container>
         <div className="pt-16 pb-[100px] px-2.5 md:pt-32 md:pb-[140px] md:px-[106px] bg-[#F8F8F8] dark:bg-[#1A1A1A]  m-auto rounded-3xl">
           {/* Account transfer  */}
-          <Flex className={"gap-x-[100px] max-w-[1188px] md:pb-[100px]"}>
+          <Flex className={"gap-x-[100px] md:flex-wrap lg:flex-nowrap max-w-[1188px] md:pb-[100px]"}>
             <div className="w-[545px]">
               <AccountCard />
             </div>
@@ -28,7 +28,7 @@ const AccountTransfer = () => {
               >
                 Account Transfer
               </h4>
-              <h2 className="text-TextColor text-center md:text-start text-3xl md:text-[63px] font-bold leading-[100%] pt-7 pb-[31px] capitalize md:w-[545px] ">
+              <h2 className="text-TextColor text-center md:text-start text-3xl md:text-5xl lg::text-[63px] font-bold leading-[100%] pt-7 pb-[31px] capitalize md:w-[545px] ">
                 {" "}
                 Maximizing Efficiency in Daily Finance
               </h2>
@@ -63,10 +63,10 @@ const AccountTransfer = () => {
 
           {/* Key Reasons to Choose Us  */}
           <Flex className={"justify-between max-w-[1202px] m-auto pt-12 md:pt-0 pb-[65px]"}>
-            <h2 className="text-TextColor text-4xl md:text-[72px] font-bold leading-[100%] capitalize md:w-[600px]">
+            <h2 className="text-TextColor text-4xl md:text-[40px] lg:text-[72px] font-bold leading-[100%] capitalize md:w-[600px]">
               Key Reasons to Choose Us
             </h2>
-            <p className="w-[363px] pt-2 md:pt-0 md:text-[18px] font-medium text-[#6B7280]">
+            <p className="w-[363px] pt-2 md:pt-0  lg:text-[18px] font-medium text-[#6B7280]">
               Whatever your customers' payment preferences, we’ll help you find
               the right solution for your business.
             </p>
@@ -74,7 +74,7 @@ const AccountTransfer = () => {
 
           {/* Clints card  */}
           <div className="max-w-[1188px] m-auto">
-          <Flex className={"   justify-between"}>
+          <Flex className={" flex-wrap gap-y-5  justify-between"}>
             <ClientsCard
               numbers={"20"}
               ratio={"K"}

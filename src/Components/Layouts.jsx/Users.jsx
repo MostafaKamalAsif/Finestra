@@ -22,7 +22,7 @@ const Users = () => {
         <div className="relative grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-y-4 md:gap-x-0 lg:gap-y-0 lg:gap-x-[55px] items-center justify-center">
           {images.map((img, idx) => (
             <div key={idx} className="dark:invert flex justify-center">
-              <Image imgsrc={img} className="w-[80px] sm:w-[100px] md:w-[120px] lg:w-full" />
+              <Image imgsrc={img} className=" w-[120px] lg:w-full" />
             </div>
           ))}
 

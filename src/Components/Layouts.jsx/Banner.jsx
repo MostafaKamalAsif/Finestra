@@ -17,7 +17,7 @@ const Banner = () => {
                       dark:invert ">
     
     {/* Heading with fade-in animation */}
-    <h1 className='md:w-[900px] md:m-auto text-[40px]  md:text-[100px] leading-[100%] text-center font-medium text-TextColor  animate-fade-in-up dark:text-[#08080C]'>
+    <h1 className='md:w-[600px] lg:w-[900px] md:m-auto text-[40px] md:text-6xl  lg:text-[100px] leading-[100%] text-center font-medium text-TextColor  animate-fade-in-up dark:text-[#08080C]'>
       Make Your Money Work Harder
     </h1>
 

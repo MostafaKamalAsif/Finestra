@@ -74,7 +74,7 @@ const AccountCard = () => {
                       <h3 className='text-[12px] font-medium text-[#6B7280] dark:text-gray-400'>Subscriptions</h3>
                       <span className='font-medium text-[#000000] dark:text-white pt-1.5'>65.8%</span>
                   </div>
-                  <Image imgsrc={RightSoftware} className={'px-1 md:w-full w-15 h-10 md:h-full'}/>
+                  <Image imgsrc={RightSoftware} className={'px-1 md:w-full w-15a h-10 md:h-full'}/>
               </div>
           </Flex>
       </div>

@@ -29,7 +29,7 @@ const Review = () => {
             </p>
           </div>
           {/* Reviews  */}.
-          <Flex className={"flex-wrap flex max-w-[1208px] m-auto gap-4 items-start"}>
+          <Flex className={"flex-wrap flex justify-center md:justify-evenly lg:justify-start max-w-[1208px] m-auto gap-4 items-start"}>
             <ReviewCard
               className={"bg-[#FFBC99] dark:bg-[#004366]"}
               UserName={"Megan"}
@@ -59,7 +59,7 @@ const Review = () => {
               }
                CommentClassName={'leading-[150%] pr-1'}
             />
-            <div className="m-auto md:m-0 md:-translate-y-15">
+            <div className="m-auto md:m-0 lg:-translate-y-15">
               <ReviewCard
                 className={"bg-[#000000]/20 dark:bg-[#FFFFFF]/20"}
                 UserName={"David K."}
@@ -80,7 +80,7 @@ const Review = () => {
               }
                CommentClassName={'leading-[150%]'}
             />
-            <div className="m-auto md:m-0 md:-translate-y-9">
+            <div className="m-auto md:m-0 lg:-translate-y-9">
               <ReviewCard
                 className={"bg-[#000000]/20 dark:bg-[#FFFFFF]/20"}
                 UserName={"David K."}
