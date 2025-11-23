@@ -34,9 +34,9 @@ function App() {
     <>
       <Header scrollToSection={scrollToSection} refs={{
         Home: bannerRef,
-        About:  accountTransferRef,
+        About:   mangeMoneyRef ,
         
-        Transfer: mangeMoneyRef,
+        Transfer:accountTransferRef,
         Reviews: reviewRef,
         Footer: footerRef
       }} />
